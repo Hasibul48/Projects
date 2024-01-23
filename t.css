@@ -1,0 +1,26 @@
+.test{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-family: arial black;
+    box-shadow: 1px 1px 7px 1px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+    line-height: 280px;
+    background-color: aquamarine;
+    color: aliceblue;
+    text-shadow: 5px 2px 2px black;
+    box-shadow: 1px 1px 7px 1px black;
+    transition: width 1s, height 1s, color 2s, transform 3s, background-color 2s, line-height 1s;
+    font-size: 50px;
+}
+.test:hover{
+    width: 600px;
+    height: 400px;
+    text-transform: uppercase;
+    color: yellowgreen;
+    transform: rotate(360deg);
+    background-color: blue;
+	line-height: 373.333px;
+}
